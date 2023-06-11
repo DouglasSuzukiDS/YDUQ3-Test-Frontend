@@ -11,3 +11,14 @@
       }
    }
 }
+
+@media (max-width: 393px) {
+   .calendarInfos-areas {
+      flex-direction: column;
+      
+      .calendarInfos-area02 {
+         flex-direction: row;
+         gap: 8px;
+      }
+   }
+}

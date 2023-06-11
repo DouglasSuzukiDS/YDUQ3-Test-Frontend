@@ -17,3 +17,37 @@ header {
 .header-right {
    font-size: 16px;
 }
+
+.header-mobile {
+   display: none;
+}
+
+@media (max-width: 393px) {
+
+   .header-left,
+   .header-left-box,
+   .header-right {
+      display: none;
+   }
+
+   header {
+      border: 1px solid red;
+
+   }
+
+   .header-mobile {
+      border: 1px solid green;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      img {
+         height: 40px;
+      }
+   }
+
+   .containerArea,
+   .investors-areas {
+      padding: 24px 16px;
+   }
+}

@@ -12,14 +12,6 @@ import { CalendarItem } from '../CalendarItem/CalendarItem'
 import { Link } from 'react-router-dom'
 
 export const Investors = () => {
-
-   // <img src={ arrowLight } alt="" />
-   //          <img src={ arrowDark } alt="" />
-   //          <img src={ box01 } alt="" />
-   //          <img src={ box02 } alt="" />
-   //          <img src={ box03 } alt="" />
-   //          <img src={ box04 } alt="" />
-   //          <img src={ box05 } alt="" />
    return(
       <section className="investors f column">
          <div className="texture">

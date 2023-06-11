@@ -49,9 +49,17 @@ export const Header = () => {
                <img src={ enSquare } alt="English"  />
                <img src={ sinoHover } alt="Sino"  />
                <img src={ busca } alt="Busca"  />
-               <img src={ nav2 } alt="Nav"  />
             </div>
             
+         </div>
+
+         <div className="header-mobile">
+            <Link to='/'>
+               <img src={ logo } alt="Logo" />
+            </Link>
+
+            <img src={ sinoHover } alt="Sino"  />
+            <img src={ nav2 } alt="Nav"  />
          </div>
       </header>
    )

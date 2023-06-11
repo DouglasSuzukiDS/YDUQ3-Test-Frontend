@@ -13,5 +13,44 @@ section.cards {
 
    .cards-area-02 {
       padding: 96px 0;
+      flex-wrap: wrap;
+
+   }
+
+   .cards-mobile {
+      display: none;
+   }
+}
+
+@media (max-width: 393px) {
+   .cards {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 0px;
+      border: 1px solid red;
+      
+         .cards-area-01 {
+            display: none;
+         }
+      
+         .cards-area-02 {
+            flex-wrap: wrap;
+            padding: 0px;
+      
+            img {
+               width: 170px;
+            }
+         }
+
+         .cards-mobile {
+               display: flex !important;
+               border: 1px solid green;
+               padding: 0 16px;
+   
+               img {
+                  width: 100%;
+               }
+         }
+      
    }
 }

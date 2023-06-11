@@ -14,3 +14,15 @@
    }
    
 }
+
+@media (max-width: 393px) {
+   .share-area {
+      // width: 100%;
+
+      .share {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+   }
+}

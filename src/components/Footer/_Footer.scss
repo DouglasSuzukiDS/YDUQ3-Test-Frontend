@@ -12,3 +12,35 @@
       opacity: .75;
    }
 }
+
+@media (max-width: 393px) {
+   .footer {
+      padding: 16px;
+      // border: 2px solid red;
+      flex-direction: column;
+
+      .footer-Area01, .footer-Area02 {
+         width: 100%;
+         flex-direction: column;
+         // border: 1px solid green;
+
+         p {
+            // @extend .flex;
+            width: 100%;
+            // border: 1px solid goldenrod;
+   
+            margin-bottom: 8px;
+            text-align: center;
+
+            
+         }
+      }
+
+      .footer-Area02 {
+         p:nth-last-child(1) {
+            margin-bottom: 0;
+            // border: 1px solid red;
+         }
+      }
+   }
+}

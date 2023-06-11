@@ -12,6 +12,8 @@ import day from '../../assets/imgs/icon-day.png'
 import fale from '../../assets/imgs/icon-fale.png'
 import mailing from '../../assets/imgs/icon-mailing.png'
 
+import arrowsMobile from '../../assets/icons/setas-mobile.svg'
+
 export const Cards = () => {
    return(
       <section className="cards w-100">
@@ -50,11 +52,23 @@ export const Cards = () => {
             <Link to='/apresentation'>
                <img src={ apresentacoes } alt="Apresentações" />
             </Link>
-`
             <img src={ comunicados } alt="Comunicados" />
             <img src={ day } alt="Day" />
             <img src={ fale } alt="Fale Conosco" />
             <img src={ mailing } alt="Email" />
+         </div>
+
+         <div className="cards-mobile">
+            <img src={ card1 } alt="Quem somos" />
+            <img src={ card2 } alt="Nossas unidades de negócio" />
+            <img src={ card3 } alt="Nossa estratégia" />
+
+            <Link to='/ecg'>
+               <img src={ card4 } alt="Nosso Impacto (ESG)" />
+            </Link>
+
+            <img src={ arrowsMobile } alt="Setas" />
+  
          </div>
 
          
