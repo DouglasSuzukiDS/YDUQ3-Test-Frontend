@@ -1,0 +1,13 @@
+.calendarItem {
+   border-bottom: 1px solid var(--light-gray);
+
+   p {
+      font-size: 16px;
+
+      &:nth-last-child(1) {
+         font-size: 14px;
+         color: var(--light-gray);
+         padding-bottom: 4px;
+      }
+   }
+}

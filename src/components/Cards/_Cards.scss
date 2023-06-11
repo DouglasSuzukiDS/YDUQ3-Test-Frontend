@@ -1,0 +1,17 @@
+section.cards {
+   background-color: var(--dark-blue);
+   
+   img:hover {
+      transition: all ease .75s;
+      cursor: pointer;
+      opacity: .75;
+   }
+
+   .cards-area-01 img {
+      width: 25%;
+   }
+
+   .cards-area-02 {
+      padding: 96px 0;
+   }
+}

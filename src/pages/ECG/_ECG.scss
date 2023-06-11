@@ -1,0 +1,229 @@
+.mainECGArea {
+   img:hover {
+      cursor: pointer;
+      transition: all ease .75s;
+      opacity: .75;
+   }
+
+   .banner-ecg {
+      background-color: var(--dark-blue);
+      height: 235px;
+
+      .banner-ecg-area img {
+         width: 294px;
+         margin-top: 160px;
+      }
+   }
+
+   .banner-ecg-img {
+      @extend .f;
+      justify-content: flex-end;
+
+      img {
+         width: 1254px;
+         position: relative;
+         margin-top: -235px;
+      }
+   }
+
+   .ecgArea {
+      // border: 1px solid red;
+
+      padding: 64px 295px 0px 295px;
+
+      .ecg-title {
+         p {
+            &:nth-child(1) {
+               font-size: 14px;
+               color: var(--light-gray);
+            }
+
+            &:nth-child(2) {
+               font-size: 40px;
+               font-weight: lighter;
+               color: var(--dark-blue);
+            }
+         }
+      }
+
+   }
+
+   .ecg-text {
+      @extend .flex, .column;
+
+      p {
+         @extend .ns-container;
+         
+
+         &:nth-last-child(1) {
+            margin-top: 34px;
+         }
+      }
+
+      .ecg-values {
+         img {
+            // border: 1px solid rebeccapurple;
+         }
+
+         @extend .f;
+         justify-content: space-between;
+         padding: 64px 0;
+      }
+   }
+
+   .nossos-compromissos {
+      @extend .f, .column;
+      background-color: var(--dark-blue);
+      padding: 64px 0;
+
+      .ns-title {
+         @extend .flex;
+         font-size: 30px;
+         // border: 1px solid rebeccapurple;
+
+         p {
+            @extend .ns-container;
+
+            // border: 1px solid red;
+         }
+      }
+
+      .ns-paineis {
+         @extend .f;
+         margin-top: 32px;
+         // border: 1px solid rebeccapurple;
+
+         justify-content: flex-start;
+         width: 1254px;
+
+         img {
+            width: 50%;
+            position: relative;
+         }
+      }
+
+      .ns-ambiental-area {
+         @extend .flex;
+
+
+         p {
+            color: var(--white);
+            font-size: 16px;
+         }
+
+         .ns-ambiental {
+            @extend .ns-container;
+            
+            padding-top: 40px;
+            
+            border-top: 4px solid var(--light-blue);
+
+            .ns-ambiental-title p {
+               @extend .title;
+            }
+
+            .ns-ambiental-desc {
+               @extend .f;
+               gap: 42px;
+               margin-top: 24px;
+               // border: 1px solid green;
+
+               span p:nth-child(1) {
+                  margin-bottom: 24px;
+               }
+            }
+         }
+      }
+
+      .ns-social-area {
+         @extend .flex;
+
+         .ns-social {
+           @extend .ns-container;
+
+            p {
+               @extend .title;
+            }
+
+            .ns-social-imgs {
+               @extend .f;
+               // justify-content: flex-start;
+               // width: 1254px;
+
+               img {
+                  width: 50%;
+                  position: relative;
+                  // margin-top: -235px;
+               }
+            }
+
+            .ns-social-desc  p{
+               @extend .ns-p-white;
+            }
+
+         }
+      }
+
+      .ns-governanca-area {
+         @extend .flex;
+
+         .ns-governanca {
+            @extend .ns-container;
+            
+            img {
+               width: 50%;
+            }
+            
+            .ns-governanca-desc {
+               @extend .ns-p-white; 
+
+               border-top: 4px solid var(--light-blue);
+               padding-top: 40px;
+               margin-top: 0px !important;
+            }
+
+            .ns-governanca-title p {
+               @extend .title;
+            }
+         }
+      }
+   }
+
+   .indices-area {
+      @extend .flex, .column;
+      .indices {
+         @extend .ns-container;
+         
+         .indices-title {
+            @extend .title;
+         }
+
+         .indices-imgs {
+            @extend .f, .sbt;
+            margin-top: 32px;
+         }
+      }
+
+   }
+}
+
+.title,
+%title {
+   font-size: 26px;
+   margin-bottom: 24px;
+   color: var(--light-blue);
+}
+
+.ns-container, %ns-container {
+   width: 1068px;
+}
+
+.ns-p-white, %ns-p-white {
+   color: var(--white);
+   font-size: 16px;
+   margin-top: 24px;
+
+   p {
+      margin-bottom: 24px;
+   }
+}

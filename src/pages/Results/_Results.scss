@@ -1,0 +1,74 @@
+.mainResultArea {
+   img:hover {
+      cursor: pointer;
+      transition: all ease .75s;
+      opacity: .75;
+   }
+
+   .banner-results  {  
+      background-color: var(--dark-blue); 
+      height: 235px;
+   
+      .banner-result-area img {
+         width: 294px;
+         margin-top: 160px;
+      }
+
+   }
+   
+   .banner-result-img {
+      @extend .f;
+      justify-content: flex-end;
+
+      img {
+         width: 1254px;
+         position: relative;
+         margin-top: -235px;
+      }
+   }
+   
+   .resultsArea {
+      padding: 64px 295px 0px 295px;
+   
+      .result-title {
+         p {
+            &:nth-child(1) {
+               font-size: 14px;
+               color: var(--light-gray);
+            }
+      
+            &:nth-child(2) {
+               font-size: 40px;
+               font-weight: lighter;
+               color: var(--dark-blue);
+            }
+         }
+      }
+   
+   
+      .result-filter {
+
+         .selectArea {
+            gap: 8px;
+            
+            label {
+               color: var(--dark-gray);
+            }
+      
+            select {
+               width: 146px;
+               border-radius: 2px;
+               padding: 8px;
+               color: var(--dark-gray);
+            }
+      
+            a {
+               text-decoration: underline;
+               color: #1A0DAB;
+            }
+         }
+   
+      }
+   
+   }
+}

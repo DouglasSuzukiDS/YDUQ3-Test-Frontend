@@ -1,0 +1,18 @@
+.downloadItem {
+   @extend .flex;
+   border-bottom: 1px solid var(--light-gray);
+
+   p {
+      @extend .flex, .sbt, .w-100;
+      padding: 8px 0;
+      font-size: 16px;
+
+      span {
+         @extend .flex
+      }
+
+      span.downloadDate{
+         color: var(--light-gray);
+      }
+   }
+}

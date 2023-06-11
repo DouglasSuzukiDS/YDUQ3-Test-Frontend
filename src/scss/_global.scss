@@ -1,0 +1,61 @@
+:root {
+   --dark-blue: #12284C;
+   --light-blue: #00ADBB;
+
+   --dark-gray: #4D4D4D;
+   --light-gray: #808080;
+
+   --white: #FFF;
+}
+
+@font-face {
+   font-family: 'BrandonText';
+   src: url(../assets/Fonts/BrandonText.otf);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'BrandonText';
+}
+
+.containerArea, %containerArea {
+   padding: 0 75px;
+}
+
+.containerAreaLeft, %containerAreaLeft {
+   padding-left: 75px;
+}
+
+.containerAreaRight, %containerAreaRight {
+   padding-right: 75px;
+}
+
+a { text-decoration: none;}
+
+.notAllowed { cursor: not-allowed; }
+.pointer { cursor: pointer; }
+
+.none { display: none; }
+.hidden { visibility: hidden; }
+.w-bg { background-color: transparent; }
+.w-border { border: none; }
+.opacity:hover { opacity: 0.8; }
+.transition { transition: all .75s; }
+.invertedX { transform: scaleX(-1); }
+.jcfs { justify-content: flex-start; }
+.jcfe { justify-content: flex-end; }
+.aifs { align-items: flex-start; }
+.aife { align-items: flex-end; }
+.z-index-50 { z-index: 50; }
+
+.bold { font-weight: bold; }
+
+.border { border: 1px solid #C1C7E0; border-radius: .25rem; }
+.border2 { border: 1px solid #DEE2E6; border-radius: .25rem; }
+.border3 { border: 1px solid red; border-radius: .25rem; }
+.border4 { border: 1px solid blue; border-radius: .25rem; }
+.border5 { border: 1px solid green; border-radius: .25rem; }
+.border6 { border: 1px solid yellow; border-radius: .25rem; }
+.border7 { border: 1px solid pink; border-radius: .25rem; }

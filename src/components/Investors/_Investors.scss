@@ -1,0 +1,31 @@
+
+.investors-areas {
+   @extend .containerArea;
+
+   gap: 40px;
+
+   img:hover {
+      cursor: pointer;
+      transition: all ease .75s;
+      opacity: .75;
+   }
+
+   p {
+      font-size: 40px;
+      font-weight: lighter;
+   }
+   
+   a {
+      font-size: 16px;
+      text-decoration: underline;
+   }
+
+   .investors-results img{
+      padding-bottom: 16px;
+   }
+
+   .investors-calender {
+      height: 200%;
+   }
+
+}

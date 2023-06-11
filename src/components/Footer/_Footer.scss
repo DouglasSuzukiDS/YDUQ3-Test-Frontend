@@ -1,0 +1,14 @@
+.footer {
+   @extend .flex, .sbt;
+   
+   background-color: var(--dark-blue);
+   color: var(--white);
+   font-size: 14px;
+   padding: 16px 75px;
+
+   img {
+      cursor: pointer;
+      transition: all ease .75s;
+      opacity: .75;
+   }
+}

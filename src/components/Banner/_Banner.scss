@@ -1,0 +1,36 @@
+section.banner {
+   @extend .containerAreaLeft;
+
+   background-color: var(--dark-blue);
+   width: 100%;
+}
+
+.text-banner-area {
+   p {
+      font-size: 40px;
+      // position: absolute;
+   }
+
+   div {
+      // position: a;
+   }
+
+   span {
+      font-size: 30px;
+   }
+
+   .banner-actions {
+
+      button {
+         color: #FFF;
+         background-color: transparent;
+         border: 1px solid #FFF;
+         // width: 130px;
+      }
+   }
+
+}
+
+section .banner-area-img img {
+   border-bottom: 2px solid var(--light-blue);
+}

@@ -1,0 +1,16 @@
+.share-area {
+   @extend .f;
+   justify-content: center;
+   padding: 32px 0;
+
+   .share {
+      @extend .f;
+
+      border-top: 1px solid var(--dark-gray);
+      padding-top: 16px;
+      gap: 8px;
+      width: 1068px;
+      position: relative;
+   }
+   
+}
