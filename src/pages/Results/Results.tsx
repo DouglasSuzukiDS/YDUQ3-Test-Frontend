@@ -48,8 +48,8 @@ export const Results = () => {
                   </div>
 
                   <p className="mt-3 f aic">
-                     <a href="#">Clique aqui</a>
                      <span className="mx-1">
+                        <a href="#">Clique aqui </a>
                         para ouvir o último cal de Resultados
                      </span>
 

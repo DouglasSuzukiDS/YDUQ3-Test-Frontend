@@ -1152,6 +1152,37 @@ section.cards .cards-mobile {
   color: #1A0DAB;
 }
 
+@media (max-width: 393px) {
+  .mainResultArea {
+    width: 100%;
+  }
+  .mainResultArea .banner-results {
+    padding: 0 16px;
+  }
+  .mainResultArea .banner-results .banner-result-area img {
+    margin-top: 160px;
+  }
+  .mainResultArea .banner-result-img img {
+    padding: 0 16px;
+    width: 100%;
+    position: static;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+  }
+  .mainResultArea .resultsArea {
+    padding: 24px 16px;
+  }
+  .mainResultArea .resultsArea .result-title {
+    width: 100%;
+  }
+  .mainResultArea .resultsArea .result-title p:nth-child(2) {
+    font-size: 28px;
+  }
+  .mainResultArea .resultsArea .result-filter .tableArea {
+    overflow: hidden;
+  }
+}
 .mainECGArea img:hover {
   cursor: pointer;
   transition: all ease 0.75s;
@@ -1258,6 +1289,104 @@ section.cards .cards-mobile {
   margin-bottom: 24px;
 }
 
+@media (max-width: 393px) {
+  .mainECGArea {
+    width: 100%;
+  }
+  .mainECGArea .banner-ecg .banner-ecg-area {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .mainECGArea .banner-ecg .banner-ecg-area .banner-ecg-area img {
+    margin-top: 160px;
+  }
+  .mainECGArea .banner-ecg-img img {
+    padding: 0 16px;
+    width: 100%;
+    position: static;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+  }
+  .mainECGArea .ecgArea {
+    padding: 24px 16px;
+  }
+  .mainECGArea .ecgArea .ecg-title {
+    width: 100%;
+  }
+  .mainECGArea .ecgArea .ecg-title p:nth-child(2) {
+    font-size: 28px;
+  }
+  .mainECGArea .ecg-text {
+    width: 100%;
+    margin: 0;
+    padding: 0px 16px;
+  }
+  .mainECGArea .ecg-text p {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+  .mainECGArea .ecg-text .ecg-values {
+    padding: 24px 0 48px 0;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .mainECGArea .nossos-compromissos {
+    padding: 32px 16px;
+    width: 100%;
+  }
+  .mainECGArea .nossos-compromissos .ns-title {
+    padding-left: 8px;
+  }
+  .mainECGArea .nossos-compromissos .ns-paineis {
+    width: 100%;
+    flex-direction: column;
+  }
+  .mainECGArea .nossos-compromissos .ns-paineis img {
+    width: 100%;
+  }
+  .mainECGArea .nossos-compromissos .ns-ambiental-area, .mainECGArea .nossos-compromissos .ns-social-area, .mainECGArea .nossos-compromissos .ns-governanca-area, .mainECGArea .nossos-compromissos .indices-area {
+    width: 100%;
+  }
+  .mainECGArea .nossos-compromissos .ns-ambiental-area .ns-ambiental, .mainECGArea .nossos-compromissos .ns-ambiental-area .ns-social, .mainECGArea .nossos-compromissos .ns-ambiental-area .ns-governanca, .mainECGArea .nossos-compromissos .ns-ambiental-area .indices, .mainECGArea .nossos-compromissos .ns-social-area .ns-ambiental, .mainECGArea .nossos-compromissos .ns-social-area .ns-social, .mainECGArea .nossos-compromissos .ns-social-area .ns-governanca, .mainECGArea .nossos-compromissos .ns-social-area .indices, .mainECGArea .nossos-compromissos .ns-governanca-area .ns-ambiental, .mainECGArea .nossos-compromissos .ns-governanca-area .ns-social, .mainECGArea .nossos-compromissos .ns-governanca-area .ns-governanca, .mainECGArea .nossos-compromissos .ns-governanca-area .indices, .mainECGArea .nossos-compromissos .indices-area .ns-ambiental, .mainECGArea .nossos-compromissos .indices-area .ns-social, .mainECGArea .nossos-compromissos .indices-area .ns-governanca, .mainECGArea .nossos-compromissos .indices-area .indices {
+    width: 100%;
+    padding: 24px 8px 0;
+  }
+  .mainECGArea .nossos-compromissos .ns-ambiental-area .ns-ambiental-desc, .mainECGArea .nossos-compromissos .ns-ambiental-area .ns-social-imgs, .mainECGArea .nossos-compromissos .ns-ambiental-area .ns-social-desc, .mainECGArea .nossos-compromissos .ns-social-area .ns-ambiental-desc, .mainECGArea .nossos-compromissos .ns-social-area .ns-social-imgs, .mainECGArea .nossos-compromissos .ns-social-area .ns-social-desc, .mainECGArea .nossos-compromissos .ns-governanca-area .ns-ambiental-desc, .mainECGArea .nossos-compromissos .ns-governanca-area .ns-social-imgs, .mainECGArea .nossos-compromissos .ns-governanca-area .ns-social-desc, .mainECGArea .nossos-compromissos .indices-area .ns-ambiental-desc, .mainECGArea .nossos-compromissos .indices-area .ns-social-imgs, .mainECGArea .nossos-compromissos .indices-area .ns-social-desc {
+    flex-direction: column;
+  }
+  .mainECGArea .nossos-compromissos .ns-social-imgs, .mainECGArea .nossos-compromissos .ns-governanca-img {
+    width: 100%;
+    flex-direction: column;
+  }
+  .mainECGArea .nossos-compromissos .ns-social-imgs img, .mainECGArea .nossos-compromissos .ns-governanca-img img {
+    width: 100% !important;
+  }
+  .mainECGArea .indices-area {
+    padding: 32px 16px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .mainECGArea .indices-area .indices {
+    width: 100%;
+  }
+  .mainECGArea .indices-area .indices .indices-imgs {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .mainECGArea .indices-area .indices .indices-imgs img {
+    width: 47%;
+  }
+}
 .mainApresentationArea .banner-apresentation {
   background-color: var(--dark-blue);
   height: 235px;

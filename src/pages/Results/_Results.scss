@@ -72,3 +72,51 @@
    
    }
 }
+
+@media (max-width: 393px) {
+   .mainResultArea {
+      width: 100%;
+      
+      .banner-results {
+         // border: 1px solid gold;
+
+         padding: 0 16px;
+         // height: 140px;
+
+         .banner-result-area img {
+            margin-top: 160px;
+         }
+      }
+
+      .banner-result-img {
+         img {
+            padding: 0 16px;
+            width: 100%;
+            // border: 1px solid red;
+   
+            position: static;
+            width: 100%;
+            height: 150px;
+            background-size: cover;
+         }
+      }
+
+      .resultsArea {
+         padding: 24px 16px;
+
+         .result-title {
+            width: 100%;
+
+            p:nth-child(2) {
+               font-size: 28px;
+            }
+         }
+
+         .result-filter {
+            .tableArea {
+               overflow: hidden;
+            }
+         }
+      }
+   }
+}

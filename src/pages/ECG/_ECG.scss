@@ -227,3 +227,140 @@
       margin-bottom: 24px;
    }
 }
+
+@media (max-width: 393px) {
+  .mainECGArea {
+      width: 100%;
+      
+      .banner-ecg .banner-ecg-area  {
+         width: 100%;
+         // border: 1px solid red;
+         padding: 0 16px;
+         // height: 140px;
+
+         .banner-ecg-area img {
+            margin-top: 160px;
+         }
+      }
+
+      .banner-ecg-img {
+         img {
+            padding: 0 16px;
+            width: 100%;
+   
+            position: static;
+            width: 100%;
+            height: 150px;
+            background-size: cover;
+         }
+      }
+
+      .ecgArea {
+         // border: 1px solid blue;
+         padding: 24px 16px;
+
+         .ecg-title {
+            width: 100%;
+
+            p:nth-child(2) {
+               font-size: 28px;
+               // border: 1px solid blue;
+            }
+         }
+      }
+
+      .ecg-text {
+         // border: 1px solid red;
+         width: 100%;
+         margin: 0;
+         padding: 0px 16px;
+         
+         p {
+            width: 100%;
+            // border: 1px solid gold;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+         }
+
+         .ecg-values {
+            // border: 1px solid red;
+            padding: 24px 0 48px 0;
+            width: 100%;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+         }
+      }
+
+      .nossos-compromissos {
+         .ns-title {
+            padding-left: 8px;
+         }
+
+         padding: 32px 16px;
+         width: 100%;
+
+         .ns-paineis {
+            width: 100%;
+            flex-direction: column;
+
+            img{
+               width: 100%;
+            }
+         }
+
+         .ns-ambiental-area, .ns-social-area, .ns-governanca-area, .indices-area {
+            // border: 1px solid red;
+            width: 100%;
+
+            .ns-ambiental, .ns-social, .ns-governanca, .indices {
+               width: 100%;
+               padding: 24px 8px 0;
+            }
+
+            .ns-ambiental-desc, .ns-social-imgs, .ns-social-desc {
+               flex-direction: column;
+            }
+         }
+
+         .ns-social-imgs, .ns-governanca-img {
+            width: 100%;
+            flex-direction: column;
+
+            img {
+               width: 100% !important;
+            }
+         }
+
+      }
+
+      .indices-area {
+         // border: 1px solid red;
+         padding: 32px 16px;
+         width: 100%;
+         flex-wrap: wrap;
+
+         .indices  {
+            width: 100%;
+
+            .indices-imgs {
+               // border: 1px solid blue;
+               display: flex;
+               width: 100%;
+               gap: 16px;
+               align-items: center;
+               justify-content: center;
+               flex-wrap: wrap;
+
+               img {
+                  width: 47%;
+               }
+            }
+         }
+         
+      
+      }
+  }
+}

@@ -186,9 +186,10 @@ export const ECG = () => {
                      <img src={ thumb } alt="Thumb" />
                      <img src={ thumb } alt="Thumb" />
                   </div>
-                  <Share />
                </div>
+               
             </section>
+            <Share />
 
          </main>
 
