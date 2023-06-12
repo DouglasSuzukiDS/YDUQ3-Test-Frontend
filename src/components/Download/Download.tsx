@@ -9,12 +9,12 @@ export const DownloadItem = ({ date, text }: Props) => {
    return(
       <div className="downloadItem">
          <p>
-            <span>
+            <span className='downloadContent'>
                <span className='downloadDate'>
                   { date } <span className="mx-1">-</span> 
                </span> 
                
-                  { text }
+               <p> { text } </p>
             </span>
 
             <span>

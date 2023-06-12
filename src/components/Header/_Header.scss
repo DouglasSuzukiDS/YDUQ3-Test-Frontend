@@ -1,5 +1,11 @@
 header {
    background-color: var(--dark-blue);
+
+   img:hover {
+      transition: all ease .75s;
+      cursor: pointer;
+      opacity: .75;
+   }
 }
 
 .text-white {
@@ -31,12 +37,12 @@ header {
    }
 
    header {
-      border: 1px solid red;
+      // border: 1px solid red;
 
    }
 
    .header-mobile {
-      border: 1px solid green;
+      // border: 1px solid green;
       width: 100%;
       display: flex;
       justify-content: space-between;

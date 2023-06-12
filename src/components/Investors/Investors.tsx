@@ -22,7 +22,7 @@ export const Investors = () => {
             <div className="investors-results w-50">
                <p className='text-dark-blue'>Resultados</p>
 
-               <div className="investors-results-info mt-3 flex w-100">
+               <div className="investors-results-info mt-3 flex w-100 ">
                   <img src={ arrowLight } alt="Anterior" className='mr-4' />
                   <span className='bold'>
                      1T21

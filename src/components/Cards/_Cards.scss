@@ -27,7 +27,7 @@ section.cards {
       display: flex;
       flex-direction: column;
       padding: 0px 0px;
-      border: 1px solid red;
+      // border: 1px solid red;
       
          .cards-area-01 {
             display: none;
@@ -44,7 +44,7 @@ section.cards {
 
          .cards-mobile {
                display: flex !important;
-               border: 1px solid green;
+               // border: 1px solid green;
                padding: 0 16px;
    
                img {

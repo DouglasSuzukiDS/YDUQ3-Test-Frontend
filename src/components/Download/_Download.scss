@@ -16,3 +16,16 @@
       }
    }
 }
+
+@media (max-width: 393px) {
+   .downloadItem {
+      .downloadContent:nth-child(1) {
+         display: flex;
+         padding-top: 8px;
+         justify-content: flex-start;
+         align-items: flex-start;
+         flex-direction: column;
+         gap: 8px;
+      } 
+   }
+}
